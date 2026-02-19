@@ -35,4 +35,4 @@ The same steps can be used to reproduce this logic in Coffee Shop and Kanban App
 
 ## Authorship
 This application is part of a Master Thesis Research, conducted in Technische Universität Chemnitz. 
-It is part of the Department of Computer Science, Disctibuted and Sels-organising Systems Faculty. 
+It is part of the Department of Computer Science, Disctibuted and Self-organising Systems Faculty. 
