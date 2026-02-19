@@ -1,0 +1,102 @@
+[
+  {
+    "step": 1,
+    "action": "click",
+    "selector": "a:has-text('Sign In')",
+    "status": "passed",
+    "error": "",
+    "duration": 0.12186098098754883,
+    "url": "http://127.0.0.1:5500/dist/sign-in.html",
+    "dom_length": 1216443
+  },
+  {
+    "step": 2,
+    "action": "click",
+    "selector": "a:has-text('Sign In')",
+    "status": "passed",
+    "error": "",
+    "duration": 0.22703790664672852,
+    "url": "http://127.0.0.1:5500/dist/sign-in.html",
+    "dom_length": 1222274
+  },
+  {
+    "step": 3,
+    "action": "click",
+    "selector": "a:has-text('Services')",
+    "status": "passed",
+    "error": "",
+    "duration": 0.16364717483520508,
+    "url": "http://127.0.0.1:5500/dist/services.html",
+    "dom_length": 1223885
+  },
+  {
+    "step": 4,
+    "action": "click",
+    "selector": "a:has-text('Services')",
+    "status": "passed",
+    "error": "",
+    "duration": 0.10487914085388184,
+    "url": "http://127.0.0.1:5500/dist/services.html",
+    "dom_length": 6544
+  },
+  {
+    "step": 5,
+    "action": "click",
+    "selector": "a",
+    "status": "passed",
+    "error": "",
+    "duration": 0.12991881370544434,
+    "url": "http://127.0.0.1:5500/dist/index.html",
+    "dom_length": 1224044
+  },
+  {
+    "step": 6,
+    "action": "click",
+    "selector": "a",
+    "status": "passed",
+    "error": "",
+    "duration": 0.10684919357299805,
+    "url": "http://127.0.0.1:5500/dist/index.html",
+    "dom_length": 6703
+  },
+  {
+    "step": 7,
+    "action": "click",
+    "selector": "a:has-text('Home')",
+    "status": "passed",
+    "error": "",
+    "duration": 0.09370017051696777,
+    "url": "http://127.0.0.1:5500/dist/index.html",
+    "dom_length": 6703
+  },
+  {
+    "step": 8,
+    "action": "click",
+    "selector": "a:has-text('Contact')",
+    "status": "passed",
+    "error": "",
+    "duration": 0.13238000869750977,
+    "url": "http://127.0.0.1:5500/dist/contact.html",
+    "dom_length": 1233086
+  },
+  {
+    "step": 9,
+    "action": "click",
+    "selector": "a:has-text('Services')",
+    "status": "passed",
+    "error": "",
+    "duration": 0.12763690948486328,
+    "url": "http://127.0.0.1:5500/dist/services.html",
+    "dom_length": 1218054
+  },
+  {
+    "step": 10,
+    "action": "click",
+    "selector": "a",
+    "status": "passed",
+    "error": "",
+    "duration": 0.12363791465759277,
+    "url": "http://127.0.0.1:5500/dist/index.html",
+    "dom_length": 1218213
+  }
+]

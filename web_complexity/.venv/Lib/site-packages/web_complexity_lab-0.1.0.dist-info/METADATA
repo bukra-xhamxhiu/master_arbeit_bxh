@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: web_complexity_lab
+Version: 0.1.0
+Summary: Web UI complexity evaluation from UI tests and logs
+Requires-Python: >=3.10
+Requires-Dist: pyyaml>=6.0.0

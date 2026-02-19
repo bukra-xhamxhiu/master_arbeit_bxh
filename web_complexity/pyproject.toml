@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "web_complexity_lab"
+version = "0.1.0"
+description = "Web UI complexity evaluation from UI tests and logs"
+requires-python = ">=3.10"
+dependencies = [
+    "pyyaml>=6.0.0",
+]
+
+[project.scripts]
+wcx = "web_complexity_lab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["web_complexity_lab"]

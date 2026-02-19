@@ -1,0 +1,25 @@
+project_name: "three_web_apps_study"
+
+applications:
+  - id: "movies_app"
+    root_path: "C:/Users/bxham/Desktop/ThesisGithubRepos/playwright-movies-app"
+    base_url: "http://localhost:3000"
+    ui_structure:
+      start_urls:
+        - "http://localhost:3000/"
+    tests:
+      framework: "playwright"
+      
+      test_paths:
+        - "tests/"
+    logs:
+      junit_paths:
+        - "logs/junit/"
+    agents:
+      log_paths:
+        - "logs/agents/"
+      format: "jsonl"
+
+output:
+  dir: "complexity_results"
+  formats: ["csv", "json"]

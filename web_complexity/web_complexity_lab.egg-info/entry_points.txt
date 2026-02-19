@@ -1,0 +1,2 @@
+[console_scripts]
+wcx = web_complexity_lab.cli:main
