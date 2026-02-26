@@ -1,0 +1,26 @@
+[
+  {
+    "app_id": "movies_app",
+    "suci": 0.5141,
+    "ifci": 0.7517,
+    "trci": 1.0,
+    "adi": 1.0,
+    "wcs": 0.8407
+  },
+  {
+    "app_id": "kanban_app",
+    "suci": 0.3801,
+    "ifci": 0.1216,
+    "trci": 1.0,
+    "adi": 0.4191,
+    "wcs": 0.395
+  },
+  {
+    "app_id": "coffee_shop",
+    "suci": 0.3284,
+    "ifci": 0.1513,
+    "trci": 0.076,
+    "adi": 0.4,
+    "wcs": 0.2787
+  }
+]

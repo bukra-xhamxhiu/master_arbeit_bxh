@@ -15,6 +15,7 @@ from .features.aggregation import aggregate_per_app
 from .models.complexity_index import compute_complexity_indices
 from .exporters.csv_exporter import export_to_csv
 from .exporters.json_exporter import export_to_json
+from .exporters.html_exporter import export_to_html
 
 
 def run_evaluation(cfg) -> None:
@@ -35,6 +36,7 @@ def run_evaluation(cfg) -> None:
         agent_parser = AgentLogParser(app)
         raw_agent_logs = agent_parser.collect()
 
+#compute metrics and indexes
         ui_metrics = compute_ui_metrics(app.id, raw_ui_states)
         test_metrics = compute_test_metrics(app.id, raw_tests)
         log_metrics = compute_log_metrics(app.id, raw_logs)
@@ -69,3 +71,5 @@ def run_evaluation(cfg) -> None:
             export_to_csv(all_app_results, out_dir)
         elif fmt == "json":
             export_to_json(all_app_results, out_dir)
+        elif fmt == "html":
+            export_to_html(all_app_results, out_dir)

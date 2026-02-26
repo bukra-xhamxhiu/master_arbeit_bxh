@@ -1,0 +1,46 @@
+[
+  {
+    "app_id": "movies_app",
+    "test_id": "test_movies_actions",
+    "status": "passed",
+    "duration_ms": 2833.7,
+    "steps_count": 9,
+    "passed_steps": 9,
+    "failed_steps": 0,
+    "retries": 0,
+    "failure_count": 0
+  },
+  {
+    "app_id": "movies_app",
+    "test_id": "test_movies_navigation",
+    "status": "failed",
+    "duration_ms": 78437.3,
+    "steps_count": 24,
+    "passed_steps": 9,
+    "failed_steps": 15,
+    "retries": 0,
+    "failure_count": 15
+  },
+  {
+    "app_id": "kanban_app",
+    "test_id": "test_kanban_generated",
+    "status": "failed",
+    "duration_ms": 30389.2,
+    "steps_count": 6,
+    "passed_steps": 5,
+    "failed_steps": 1,
+    "retries": 0,
+    "failure_count": 1
+  },
+  {
+    "app_id": "coffee_shop",
+    "test_id": "test_generated_ui",
+    "status": "passed",
+    "duration_ms": 4984.0,
+    "steps_count": 39,
+    "passed_steps": 39,
+    "failed_steps": 0,
+    "retries": 0,
+    "failure_count": 0
+  }
+]

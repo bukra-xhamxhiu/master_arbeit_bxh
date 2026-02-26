@@ -1,0 +1,4 @@
+agent_success_rate,app_id,avg_agent_backtracks,avg_agent_dom_size,avg_agent_steps_to_success,avg_dom_nodes,avg_form_count,avg_interactive_count,avg_test_duration_ms,avg_test_steps,failure_rate,max_dom_nodes,total_assertions,total_clicks,total_episodes,total_pages,total_tests
+0.5,movies_app,7.5,81129.93055555556,16.5,73555.44444444444,0,2.7777777777777777,40635.5,3.9444444444444446,0.5,114360,768,306,2,9,108
+1.0,kanban_app,0.5,49734.666666666664,6,24875.5,0,4.5,30389.2,7,1.0,49734,2,6,2,2,1
+1.0,coffee_shop,0,1108662.9487179487,39,580842.1538461539,0.15384615384615385,9.461538461538462,4984.0,36,0.0,1302315,0,33,1,13,1

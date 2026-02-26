@@ -1,0 +1,6 @@
+app_id,avg_dom_size,backtracks,episode_id,error_count,max_dom_size,steps_count,success,success_count,task_id,unique_urls
+movies_app,81405.75,15,test_movies_navigation,15,123407,24,False,9,test_movies_navigation,9
+movies_app,80854.11111111111,0,test_movies_actions,0,80858,9,True,9,test_movies_actions,1
+kanban_app,49616.666666666664,0,kanban_explore,0,49876,6,True,6,kanban_explore,1
+kanban_app,49852.666666666664,1,test_kanban_generated,1,50165,6,True,5,test_kanban_generated,1
+coffee_shop,1108662.9487179487,0,test_generated_ui,0,1302332,39,True,39,test_generated_ui,7

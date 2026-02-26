@@ -1,25 +1,65 @@
 project_name: "three_web_apps_study"
 
 applications:
+  # Movies App - Next.js application with Playwright tests
   - id: "movies_app"
-    root_path: "C:/Users/bxham/Desktop/ThesisGithubRepos/playwright-movies-app"
+    root_path: "/Users/bukuroshexhamxhiu/Desktop/repos/playwright-movies-app"
     base_url: "http://localhost:3000"
     ui_structure:
       start_urls:
         - "http://localhost:3000/"
     tests:
       framework: "playwright"
-      
       test_paths:
-        - "tests/"
+        - "tests/logged-in/"
+        - "tests/logged-out/"
+        - "movies_ai_TestGenerator_improved/tests/generated/"
     logs:
       junit_paths:
         - "logs/junit/"
     agents:
       log_paths:
-        - "logs/agents/"
-      format: "jsonl"
+        - "movies_ai_TestGenerator_improved/logs/"
+      format: "json"
+
+  # Kanban Task Management App - React application
+  - id: "kanban_app"
+    root_path: "/Users/bukuroshexhamxhiu/Desktop/repos/kanban-task-management-web-app"
+    base_url: "http://localhost:3000"
+    ui_structure:
+      start_urls:
+        - "http://localhost:3000/"
+    tests:
+      framework: "playwright"
+      test_paths:
+        - "kanban_ai/tests_generated/"
+    logs:
+      junit_paths:
+        - "logs/junit/"
+    agents:
+      log_paths:
+        - "kanban_ai/logs/"
+      format: "json"
+
+  # Coffee Shop - Static HTML website
+  - id: "coffee_shop"
+    root_path: "/Users/bukuroshexhamxhiu/Desktop/repos/Coffee-Shop-Website"
+    base_url: "http://localhost:5500"
+    ui_structure:
+      start_urls:
+        - "http://localhost:5500/dist/index.html"
+    tests:
+      framework: "playwright"
+      test_paths:
+        - "coffee_ai_tests_generator(playwright_ai)/tests/generated/"
+    logs:
+      junit_paths:
+        - "logs/junit/"
+    agents:
+      log_paths:
+        - "coffee_ai_tests_generator(playwright_ai)/tests/logs/"
+      format: "json"
 
 output:
   dir: "complexity_results"
-  formats: ["csv", "json"]
+  formats: ["csv", "json", "html"]

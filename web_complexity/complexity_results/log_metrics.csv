@@ -1,0 +1,5 @@
+app_id,duration_ms,failed_steps,failure_count,passed_steps,retries,status,steps_count,test_id
+movies_app,2833.7,0,0,9,0,passed,9,test_movies_actions
+movies_app,78437.3,15,15,9,0,failed,24,test_movies_navigation
+kanban_app,30389.2,1,1,5,0,failed,6,test_kanban_generated
+coffee_shop,4984.0,0,0,39,0,passed,39,test_generated_ui

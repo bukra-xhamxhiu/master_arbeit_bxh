@@ -50,7 +50,7 @@ cd web_complexity
 python3 -m venv .venv
 source .venv/bin/activate  
 .venv\Scripts\activate   
-Install packagepip install -e .
+Install package pip install -e .
 ```
 ## Usage: 
  #. Run Evaluation: wcx evaluate --config config.yaml  

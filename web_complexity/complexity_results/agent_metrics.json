@@ -1,0 +1,67 @@
+[
+  {
+    "app_id": "movies_app",
+    "episode_id": "test_movies_navigation",
+    "task_id": "test_movies_navigation",
+    "success": false,
+    "steps_count": 24,
+    "success_count": 9,
+    "error_count": 15,
+    "backtracks": 15,
+    "unique_urls": 9,
+    "avg_dom_size": 81405.75,
+    "max_dom_size": 123407
+  },
+  {
+    "app_id": "movies_app",
+    "episode_id": "test_movies_actions",
+    "task_id": "test_movies_actions",
+    "success": true,
+    "steps_count": 9,
+    "success_count": 9,
+    "error_count": 0,
+    "backtracks": 0,
+    "unique_urls": 1,
+    "avg_dom_size": 80854.11111111111,
+    "max_dom_size": 80858
+  },
+  {
+    "app_id": "kanban_app",
+    "episode_id": "kanban_explore",
+    "task_id": "kanban_explore",
+    "success": true,
+    "steps_count": 6,
+    "success_count": 6,
+    "error_count": 0,
+    "backtracks": 0,
+    "unique_urls": 1,
+    "avg_dom_size": 49616.666666666664,
+    "max_dom_size": 49876
+  },
+  {
+    "app_id": "kanban_app",
+    "episode_id": "test_kanban_generated",
+    "task_id": "test_kanban_generated",
+    "success": true,
+    "steps_count": 6,
+    "success_count": 5,
+    "error_count": 1,
+    "backtracks": 1,
+    "unique_urls": 1,
+    "avg_dom_size": 49852.666666666664,
+    "max_dom_size": 50165
+  },
+  {
+    "app_id": "coffee_shop",
+    "episode_id": "test_generated_ui",
+    "task_id": "test_generated_ui",
+    "success": true,
+    "steps_count": 39,
+    "success_count": 39,
+    "error_count": 0,
+    "backtracks": 0,
+    "unique_urls": 7,
+    "avg_dom_size": 1108662.9487179487,
+    "max_dom_size": 1302332
+  }
+]
